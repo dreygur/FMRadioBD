@@ -1,53 +1,45 @@
-<html>
-  <head>
-    <title>Live Stream Links of BD FM Radios</title>
-    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
-  </head>
-  <body>
-    <header class="navbar">
-      <section class="navbar-section">
-        <a href="/" class="navbar-brand mr-2">Home</a>
-        <a href="//blog.rakibul.me" class="btn btn-link">Blog</a>
-      </section>
-      <section class="navbar-center">
-      <!-- centered logo or brand -->
-      </section>
-      <section class="navbar-section">
-        <a href="//twitter.com/rytotul" class="btn btn-link">Twitter</a>
-        <a href="//github.com/rytotul" class="btn btn-link">GitHub</a>
-      </section>
-    </header>
-    
-    <div class="modal active" id="modal-id">
-      <a href="#close" class="modal-overlay" aria-label="Close"></a>
-        <div class="modal-container">
-        <div class="modal-header">
-          <a href="#close" class="btn btn-clear float-right" aria-label="Close"></a>
-          <div class="modal-title h5">Welcome</div>
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FM Radio | BD</title>
+  <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/jekyll/jekyll/master/docs/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='http://cdn.plyr.io/3.3.21/plyr.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="column add-bottom">
+      <div id="mainwrap">
+        <div id="nowPlay">
+          <span id="npAction">Paused...</span><span id="npTitle"></span>
         </div>
-        <div class="modal-body">
-          <div class="content">
-          Welcome!
+        <div id="audiowrap">
+          <div id="audio0">
+            <audio id="audio1" preload controls>Your browser does not support HTML5 Audio! 😢</audio>
+          </div>
+          <div id="tracks">
+            <a id="btnPrev">&larr;</a><a id="btnNext">&rarr;</a>
           </div>
         </div>
-        <div class="modal-footer">
-        ...
+        <div id="plwrap">
+          <ul id="plList"></ul>
         </div>
       </div>
     </div>
-    
-    <div>Radio Foorti</div>
-    <div>
-      <video controls="true" autoplay="false" name="media" style=" height: 50px; width: 303px; border-radius: 5px; "><source src="http://ample-zeno-18.radiojar.com/6a28tbx6vewtv?rj-ttl=5&amp;rj-token=AAABZxFkmHh-SWPGo9VzWL_UEKH9xkKNeh3LxJjFWftGoM7nY5jAJA" type="audio/mpeg">
-      </video>
+    <div class="column add-bottom center">
+      <p>Made with &hearts; by <a href="http://fb.com/rytotul">Rakibul Yeasin</a></p>
     </div>
-    <div>Radio Foorti</div>
-    <div>
-      <video controls="true" autoplay="false" name="media" style=" height: 50px; width: 303px; border-radius: 5px; ">
-        <source src="http://119.148.23.88:1021/;stream/1" type="audio/mpeg" />
-      </video>
-    </div>
-  </body>
+  </div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/html5media/1.1.8/html5media.min.js'></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/plyr/3.3.21/plyr.min.js'></script>
+  <script  src="js/index.js"></script>
+</body>
+
 </html>
