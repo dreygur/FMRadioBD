@@ -3,8 +3,8 @@
 html,body {
     -webkit-font-smoothing:antialiased;
     -webkit-text-size-adjust:100%;
-    background: rgb(46,69,217);
-    background: radial-gradient(circle, rgba(46,69,217,1) 0%, rgba(57,121,209,1) 100%);
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
     /* background-color:#0665a2; */
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,7 +15,7 @@ html,body {
     font-weight:300;
     letter-spacing:.025rem;
     line-height:1.618;
-    padding:1rem 0;
+    //padding:1rem 0;
 }
 
 *,::before,::after {
@@ -25,6 +25,18 @@ html,body {
 * {
     -webkit-tap-highlight-color:rgba(0,0,0,0);
     -webkit-tap-highlight-color:transparent;
+}
+
+header {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    color:  #159957;
+}
+
+h1 {
+    margin: 0px auto;
 }
 
 .container {
@@ -117,7 +129,7 @@ audio {
 
 #plList li:hover {
     background-color:rgba(0,0,0,.1);
-    border-radius: 0.75em;
+    //border-radius: 0.75em;
 }
 
 .plItem {
@@ -144,12 +156,13 @@ audio {
     position:absolute;
     right:21px;
     top:0;
+    font-weight: bold;
 }
 
 .plSel, .plSel:hover {
     background-color:rgba(0,0,0,.1);
     color:#fff;
-    border-radius: 0.75em;
+    //border-radius: 0.75em;
     cursor:default !important;
 }
 
