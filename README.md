@@ -1,6 +1,6 @@
 # FM Radio Live Streams (Bangladesh)
 
-![Screenshot](./docs/images/Screenshot_2019-02-09_00-59-55.png)
+![Screenshot](docs/images/Screenshot_2019-02-09_00-59-55.png)
 
 __Currently 17 Channels are available__
 
