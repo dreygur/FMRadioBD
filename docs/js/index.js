@@ -35,39 +35,79 @@ jQuery(function ($) {
                 "file": "http://ample-zeno-18.radiojar.com/6a28tbx6vewtv?rj-ttl=5&rj-token=AAABZxFkmHh-SWPGo9VzWL_UEKH9xkKNeh3LxJjFWftGoM7nY5jAJA"
             }, {
                 "track": 3,
-                "name": "Jago FM (94.4FM)",
+                "name": "Radio Today (89.6FM)",
                 "duration": "LIVE",
-                "file": "http://192.240.102.133:12110/;stream/1"
+                "file": "http://ample-zeno-06.radiojar.com/8wv4d8g4344tv?rj-ttl=5&rj-token=AAABaM5e5-5djdYdG5sJXmQPKCEqJY7NeNpNU7gJF-8u-1sPgXG-Tg"
             }, {
                 "track": 4,
-                "name": "Bangladesh Betar (100.0FM)",
-                "duration": "LIVE",
-                "file": "http://ample-zeno-07.radiojar.com/8w0533k6vewtv?rj-ttl=5&rj-token=AAABX87UTciGemPgMYZ0vYCKX0u3FHfYhNNe7FGx44CJCpgkjSc2Pw"
-            }, {
-                "track": 5,
-                "name": "Radio Dhol (94.0FM)",
-                "duration": "LIVE",
-                "file": "http://192.240.102.133:11331/live"
-            }, {
-                "track": 6,
-                "name": "Radio Dhoni (91.2FM)",
-                "duration": "LIVE",
-                "file": "http://182.160.110.180:1020/;stream.mp3"
-            }, {
-                "track": 7,
-                "name": "Colours (101.6FM)",
-                "duration": "LIVE",
-                "file": "http://45.64.135.88:8000/stream1"
-            }, {
-                "track": 8,
                 "name": "Dhaka FM (90.4FM)",
                 "duration": "LIVE",
                 "file": "http://118.179.219.244:8000/;"
             }, {
-                "track": 9,
+                "track": 5,
+                "name": "Radio Dhoni (91.2FM)",
+                "duration": "LIVE",
+                "file": "http://182.160.110.180:1020/;stream.mp3"
+            }, {
+                "track": 6,
+                "name": "Radio Shadhin (92.4FM)",
+                "duration": "LIVE",
+                "file": "http://ample-zeno-10.radiojar.com/umq9q5uuva5tv?rj-ttl=5&rj-token=AAABaM5jXX3udQcYyFn6BJLw8goRg6F_0DkpzizU_ppkG_tFwL5QmQ"
+            }, {
+                "track": 7,
                 "name": "Radio Bhumi (92.8FM)",
                 "duration": "LIVE",
                 "file": "http://149.56.195.94:8545/;stream.mp3"
+            }, {
+                "track": 8,
+                "name": "Radio Next (93.2FM)",
+                "duration": "LIVE",
+                "file": "http://live.radionext.fm:9000/;"
+            }, {
+                "track": 9,
+                "name": "Radio Din-Raat (93.6FM)",
+                "duration": "LIVE",
+                "file": "http://27.147.128.134:8000/"
+            }, {
+                "track": 10,
+                "name": "Radio Dhol (94.0FM)",
+                "duration": "LIVE",
+                "file": "http://192.240.102.133:11331/live"
+            }, {
+                "track": 11,
+                "name": "Jago FM (94.4FM)",
+                "duration": "LIVE",
+                "file": "http://192.240.102.133:12110/;stream/1"
+            }, {
+                "track": 12,
+                "name": "Peoples  Radio (91.6FM)",
+                "duration": "LIVE",
+                "file": "http://s3.myradiostream.com/14498/listen.mp3"
+            }, {
+                "track": 13,
+                "name": "City FM (96.0FM)",
+                "duration": "LIVE",
+                "file": "http://158.106.188.12:9300/;stream.ogg"
+            }, {
+                "track": 14,
+                "name": "Spice FM (96.4FM)",
+                "duration": "LIVE",
+                "file": "http://162.254.149.187:9300/stream"
+            }, {
+                "track": 15,
+                "name": "Radio Ekattor (98.4FM)",
+                "duration": "LIVE",
+                "file": "http://103.253.47.173:8000/;"
+            }, {
+                "track": 16,
+                "name": "Bangladesh Betar (100.0FM)",
+                "duration": "LIVE",
+                "file": "http://ample-zeno-07.radiojar.com/8w0533k6vewtv?rj-ttl=5&rj-token=AAABX87UTciGemPgMYZ0vYCKX0u3FHfYhNNe7FGx44CJCpgkjSc2Pw"
+            }, {
+                "track": 17,
+                "name": "Colours (101.6FM)",
+                "duration": "LIVE",
+                "file": "http://45.64.135.88:8000/stream1"
             }],
             buildPlaylist = $(tracks).each(function(key, value) {
                 var trackNumber = value.track,
