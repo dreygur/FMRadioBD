@@ -15,7 +15,7 @@ html,body {
     font-weight:300;
     letter-spacing:.025rem;
     line-height:1.618;
-    //padding:1rem 0;
+    /* padding:1rem 0; */
 }
 
 *,::before,::after {
@@ -129,7 +129,7 @@ audio {
 
 #plList li:hover {
     background-color:rgba(0,0,0,.1);
-    //border-radius: 0.75em;
+    /* border-radius: 0.75em; */
 }
 
 .plItem {
@@ -162,7 +162,7 @@ audio {
 .plSel, .plSel:hover {
     background-color:rgba(0,0,0,.1);
     color:#fff;
-    //border-radius: 0.75em;
+    /* border-radius: 0.75em; */
     cursor:default !important;
 }
 
