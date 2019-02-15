@@ -50,39 +50,39 @@ jQuery(function ($) {
                 "file": "http://182.160.110.180:1020/;stream.mp3"
             }, {
                 "track": 6,
+                "name": "Peoples  Radio (91.6FM)",
+                "duration": "LIVE",
+                "file": "http://s3.myradiostream.com/14498/listen.mp3"
+            }, {
+                "track": 7,
                 "name": "Radio Shadhin (92.4FM)",
                 "duration": "LIVE",
                 "file": "http://ample-zeno-10.radiojar.com/umq9q5uuva5tv?rj-ttl=5&rj-token=AAABaM5jXX3udQcYyFn6BJLw8goRg6F_0DkpzizU_ppkG_tFwL5QmQ"
             }, {
-                "track": 7,
+                "track": 8,
                 "name": "Radio Bhumi (92.8FM)",
                 "duration": "LIVE",
                 "file": "http://149.56.195.94:8545/;stream.mp3"
             }, {
-                "track": 8,
+                "track": 9,
                 "name": "Radio Next (93.2FM)",
                 "duration": "LIVE",
                 "file": "http://live.radionext.fm:9000/;"
             }, {
-                "track": 9,
+                "track": 10,
                 "name": "Radio Din-Raat (93.6FM)",
                 "duration": "LIVE",
                 "file": "http://27.147.128.134:8000/"
             }, {
-                "track": 10,
+                "track": 11,
                 "name": "Radio Dhol (94.0FM)",
                 "duration": "LIVE",
                 "file": "http://192.240.102.133:11331/live"
             }, {
-                "track": 11,
+                "track": 12,
                 "name": "Jago FM (94.4FM)",
                 "duration": "LIVE",
                 "file": "http://192.240.102.133:12110/;stream/1"
-            }, {
-                "track": 12,
-                "name": "Peoples  Radio (91.6FM)",
-                "duration": "LIVE",
-                "file": "http://s3.myradiostream.com/14498/listen.mp3"
             }, {
                 "track": 13,
                 "name": "City FM (96.0FM)",
