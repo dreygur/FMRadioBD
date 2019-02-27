@@ -32,7 +32,7 @@ jQuery(function ($) {
                 "track": 2,
                 "name": "ABC Radio (89.2FM)",
                 "duration": "LIVE",
-                "file": "http://ample-zeno-18.radiojar.com/6a28tbx6vewtv?rj-ttl=5&rj-token=AAABZxFkmHh-SWPGo9VzWL_UEKH9xkKNeh3LxJjFWftGoM7nY5jAJA"
+                "file": "http://ample-zeno-20.radiojar.com/aqs8z2kn944tv"
             }, {
                 "track": 3,
                 "name": "Radio Today (89.6FM)",
