@@ -57,7 +57,7 @@ jQuery(function ($) {
                 "track": 7,
                 "name": "Radio Shadhin (92.4FM)",
                 "duration": "LIVE",
-                "file": "http://ample-zeno-10.radiojar.com/umq9q5uuva5tv?rj-ttl=5&rj-token=AAABaM5jXX3udQcYyFn6BJLw8goRg6F_0DkpzizU_ppkG_tFwL5QmQ"
+                "file": "http://ample-zeno-10.radiojar.com/umq9q5uuva5tv"
             }, {
                 "track": 8,
                 "name": "Radio Bhumi (92.8FM)",
@@ -102,7 +102,7 @@ jQuery(function ($) {
                 "track": 16,
                 "name": "Bangladesh Betar (100.0FM)",
                 "duration": "LIVE",
-                "file": "http://ample-zeno-07.radiojar.com/8w0533k6vewtv?rj-ttl=5&rj-token=AAABX87UTciGemPgMYZ0vYCKX0u3FHfYhNNe7FGx44CJCpgkjSc2Pw"
+                "file": "http://ample-zeno-07.radiojar.com/8w0533k6vewtv"
             }, {
                 "track": 17,
                 "name": "Colours (101.6FM)",
