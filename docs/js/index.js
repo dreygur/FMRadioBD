@@ -37,7 +37,7 @@ jQuery(function ($) {
                 "track": 3,
                 "name": "Radio Today (89.6FM)",
                 "duration": "LIVE",
-                "file": "http://ample-zeno-06.radiojar.com/8wv4d8g4344tv?rj-ttl=5&rj-token=AAABaM5e5-5djdYdG5sJXmQPKCEqJY7NeNpNU7gJF-8u-1sPgXG-Tg"
+                "file": "http://stream.zenolive.com/8wv4d8g4344tv"
             }, {
                 "track": 4,
                 "name": "Dhaka FM (90.4FM)",
