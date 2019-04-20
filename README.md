@@ -23,4 +23,4 @@ __Currently 17 Channels are available__
 - Bangladesh Betar (100.0FM)
 - Colours (101.6FM)
 
-Made with :heart: by [Rakibul Yeasin](https://facebook.com/rytotul)
+Made with :heart: by [Rakibul Yeasin](https://facebook.com/dreygur)
