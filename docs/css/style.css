@@ -232,7 +232,3 @@ audio {
         width:100%;
     }
 }
-
-body::after {
-    content: "Made with Love";
-}
