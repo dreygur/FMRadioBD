@@ -30,13 +30,15 @@ var songs = {
       "name": "Dhaka FM (90.4FM)",
       "artist": "90.4FM",
       "album": "Radio",
-      "url": "http://118.179.219.244:8000/;"
+      "url": "http://118.179.219.244:8000/;",
+      "cover_art_url": "http://dhakafm904.com/assets/images/logo.png"
     },
     {
       "name": "Radio Dhoni (91.2FM)",
       "artist": "91.2FM",
       "album": "Radio",
-      "url": "http://182.160.110.180:1020/;stream.mp3"
+      "url": "http://182.160.110.180:1020/;stream.mp3",
+      "cover_art_url": "http://radiodhoni.fm/wp-content/uploads/2017/04/Radio-Dhoni-Logo-100-100.png"
     },
     {
       "name": "Peoples  Radio (91.6FM)",
