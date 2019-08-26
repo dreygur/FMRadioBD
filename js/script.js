@@ -16,7 +16,8 @@ var songs = {
       "name": "ABC Radio (89.2FM)",
       "artist": "89.2FM",
       "album": "Radio",
-      "url": "http://ample-zeno-20.radiojar.com/aqs8z2kn944tv"
+      "url": "http://ample-zeno-20.radiojar.com/aqs8z2kn944tv",
+      "cover_art_url": "https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg"
     },
     {
       "name": "Radio Today (89.6FM)",
