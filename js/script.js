@@ -92,7 +92,7 @@ var songs = {
       "name": "Spice FM (96.4FM)",
       "artist": "96.4FM",
       "album": "Radio",
-      "url": "http://162.254.149.187:9300/stream"
+      "url": "http://162.254.149.187:9300/;"
     },
     {
       "name": "Radio Ekattor (98.4FM)",
