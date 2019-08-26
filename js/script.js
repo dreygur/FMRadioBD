@@ -10,7 +10,7 @@ var songs = {
       "artist": "88.0FM",
       "album": "Radio",
       "url": "http://119.148.23.88:1021/;stream/1",
-      "cover_art_url": "https://cdn.webrad.io/images/logos/radio-net-bd/foorti.png"
+      "cover_art_url": "./img/foorti.png"
     },
     {
       "name": "ABC Radio (89.2FM)",
