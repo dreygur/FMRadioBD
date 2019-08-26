@@ -10,20 +10,21 @@ var songs = {
       "artist": "88.0FM",
       "album": "Radio",
       "url": "http://119.148.23.88:1021/;stream/1",
-      "cover_art_url": "./img/foorti.png"
+      "cover_art_url": "https://cdn.webrad.io/images/logos/radio-net-bd/foorti.png"
     },
     {
       "name": "ABC Radio (89.2FM)",
       "artist": "89.2FM",
       "album": "Radio",
       "url": "http://ample-zeno-20.radiojar.com/aqs8z2kn944tv",
-      "cover_art_url": "https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg"
+      "cover_art_url": "https://www.abcradio.fm/img/frontend/logo.png"
     },
     {
       "name": "Radio Today (89.6FM)",
       "artist": "89.6FM",
       "album": "Radio",
-      "url": "http://stream.zenolive.com/8wv4d8g4344tv"
+      "url": "http://stream.zenolive.com/8wv4d8g4344tv",
+      "cover_art_url": "https://www.radiotodaybd.fm/wp-content/uploads/2019/05/logoT-2.png"
     },
     {
       "name": "Dhaka FM (90.4FM)",
