@@ -17,34 +17,35 @@ var songs = {
       "artist": "89.2FM",
       "album": "Radio",
       "url": "http://ample-zeno-20.radiojar.com/aqs8z2kn944tv",
-      "cover_art_url": "https://www.abcradio.fm/img/frontend/logo.png"
+      "cover_art_url": "./img/abc.jpg"
     },
     {
       "name": "Radio Today (89.6FM)",
       "artist": "89.6FM",
       "album": "Radio",
       "url": "http://stream.zenolive.com/8wv4d8g4344tv",
-      "cover_art_url": "https://www.radiotodaybd.fm/wp-content/uploads/2019/05/logoT-2.png"
+      "cover_art_url": "./img/today.jpg"
     },
     {
       "name": "Dhaka FM (90.4FM)",
       "artist": "90.4FM",
       "album": "Radio",
       "url": "http://118.179.219.244:8000/;",
-      "cover_art_url": "http://dhakafm904.com/assets/images/logo.png"
+      "cover_art_url": "./img/dhaka-fm.png"
     },
     {
       "name": "Radio Dhoni (91.2FM)",
       "artist": "91.2FM",
       "album": "Radio",
       "url": "http://182.160.110.180:1020/;stream.mp3",
-      "cover_art_url": "http://radiodhoni.fm/wp-content/uploads/2017/04/Radio-Dhoni-Logo-100-100.png"
+      "cover_art_url": "./img/dhoni.jpg"
     },
     {
       "name": "Peoples  Radio (91.6FM)",
       "artist": "91.6FM",
       "album": "Radio",
-      "url": "http://s3.myradiostream.com/14498/listen.mp3"
+      "url": "http://s3.myradiostream.com/14498/listen.mp3",
+      "cover_art_url": "./img/peoples.png"
     },
     {
       "name": "Radio Shadhin (92.4FM)",
