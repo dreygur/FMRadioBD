@@ -51,13 +51,15 @@ var songs = {
       "name": "Radio Shadhin (92.4FM)",
       "artist": "92.4FM",
       "album": "Radio",
-      "url": "http://ample-zeno-10.radiojar.com/umq9q5uuva5tv"
+      "url": "http://ample-zeno-10.radiojar.com/umq9q5uuva5tv",
+      "cover_art_url": "./img/shadhin.jpg"
     },
     {
       "name": "Radio Bhumi (92.8FM)",
       "artist": "92.8FM",
       "album": "Radio",
-      "url": "http://149.56.195.94:8545/;stream.mp3"
+      "url": "http://149.56.195.94:8545/;stream.mp3",
+      "cover_art_url": "./img/bhumi.jpg"
     },
     {
       "name": "Radio Next (93.2FM)",
