@@ -65,55 +65,64 @@ var songs = {
       "name": "Radio Next (93.2FM)",
       "artist": "93.2FM",
       "album": "Radio",
-      "url": "http://live.radionext.fm:9000/;"
+      "url": "http://live.radionext.fm:9000/;",
+      "cover_art_url": "./img/next.jpg"
     },
     {
       "name": "Radio Din-Raat (93.6FM)",
       "artist": "93.6FM",
       "album": "Radio",
-      "url": "http://27.147.128.134:8000/"
+      "url": "http://27.147.128.134:8000/",
+      "cover_art_url": "./img/din-raat.jpg"
     },
     {
       "name": "Radio Dhol (94.0FM)",
       "artist": "94.0FM",
       "album": "Radio",
-      "url": "http://192.240.102.133:11331/live"
+      "url": "http://192.240.102.133:11331/live",
+      "cover_art_url": "./img/dhol.jpg"
     },
     {
       "name": "Jago FM (94.4FM)",
       "artist": "94.4FM",
       "album": "Radio",
-      "url": "http://192.240.102.133:12110/;stream/1"
+      "url": "http://192.240.102.133:12110/;stream/1",
+      "cover_art_url": "./img/jago.jpg"
     },
     {
       "name": "City FM (96.0FM)",
       "artist": "96.0FM",
       "album": "Radio",
-      "url": "http://158.106.188.12:9300/;stream.ogg"
+      "url": "http://158.106.188.12:9300/;stream.ogg",
+      "cover_art_url": "./img/city.png"
     },
     {
       "name": "Spice FM (96.4FM)",
       "artist": "96.4FM",
       "album": "Radio",
-      "url": "http://162.254.149.187:9300/;"
+      "url": "http://162.254.149.187:9300/;",
+      "cover_art_url": "./img/spice.jpg"
     },
     {
       "name": "Radio Ekattor (98.4FM)",
       "artist": "98.4FM",
       "album": "Radio",
-      "url": "http://103.253.47.173:8000/;"
+      "url": "http://103.253.47.173:8000/;",
+      "cover_art_url": "./img/ekattor.png"
     },
     {
       "name": "Bangladesh Betar (100.0FM)",
       "artist": "100.0FM",
       "album": "Radio",
-      "url": "http://ample-zeno-07.radiojar.com/8w0533k6vewtv"
+      "url": "http://ample-zeno-07.radiojar.com/8w0533k6vewtv",
+      "cover_art_url": "./img/bd-betar.jpg"
     },
     {
       "name": "Colours (101.6FM)",
       "artist": "101.6FM",
       "album": "Radio",
-      "url": "http://45.64.135.88:8000/stream1"
+      "url": "http://45.64.135.88:8000/stream1",
+      "cover_art_url": "./img/colours.png"
     }
   ]
 };
