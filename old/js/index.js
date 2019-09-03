@@ -108,31 +108,6 @@ jQuery(function ($) {
                 "name": "Colours (101.6FM)",
                 "duration": "LIVE",
                 "file": "http://45.64.135.88:8000/stream1"
-            }, {
-                "track": 18,
-                "name": "Colours (101.6FM)",
-                "duration": "LIVE",
-                "file": "http://45.64.135.88:8000/stream1"
-            }, {
-                "track": 19,
-                "name": "Colours (101.6FM)",
-                "duration": "LIVE",
-                "file": "http://45.64.135.88:8000/stream1"
-            }, {
-                "track": 20,
-                "name": "Colours (101.6FM)",
-                "duration": "LIVE",
-                "file": "http://45.64.135.88:8000/stream1"
-            }, {
-                "track": 21,
-                "name": "Colours (101.6FM)",
-                "duration": "LIVE",
-                "file": "http://45.64.135.88:8000/stream1"
-            }, {
-                "track": 22,
-                "name": "Colours (101.6FM)",
-                "duration": "LIVE",
-                "file": "http://45.64.135.88:8000/stream1"
             }],
             buildPlaylist = $(tracks).each(function(key, value) {
                 var trackNumber = value.track,
@@ -219,19 +194,4 @@ jQuery(function ($) {
         var noSupport = $('#audio1').text();
         $('.container').append('<p class="no-support">' + noSupport + '</p>');
     }
-
-    var scripts = $('script');
-    for(script in scripts) {
-        if(script.$('script').attr("style") !== 'script') {
-            script.before("<!--").after("-->");
-        }
-    }
-
-    var credit = $("#credit");
-    if( !credit || credit.html() != '<p>Made with &hearts; by <a href="http://fb.com/dreygur">Rakibul Yeasin</a></p>' ) {
-        alert("You have changed the Author Credit.\nRedirectng to author's profile...");
-        setTimeout( function() {
-            window.location.href = "https://facebook.com/dreygur/";
-        }, 5000);
-    }
-}); 
+});
